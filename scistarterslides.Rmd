@@ -21,18 +21,20 @@ output:
 
 ## Scientific inquiry
 
-1. Question
-2. Observation
-3. Testing
-4. Inference
+- Question
+- Observation
+- Testing
+- Inference
 
 
 ## Scientific questions
 
-### Investigate "effects of causes"
+- Investigate "effects of causes"
 - Ingredients of a sci question
   - Exposure variable: cause, $X$
   - Outcome variable: effect, $Y$
+
+&nbsp;
 
 > What is the effect of a plant-based diet (X)
 on longevity (Y)?
@@ -47,6 +49,8 @@ on longevity (Y)?
 - Hypotheses: observable implications of theory
   - In my study, School A predicts...
   - School B predicts...
+
+&nbsp;
 
 > Theories are general stories about the way things work. 
 > Hypotheses are specific predictions, derived from theory, about what we will observe in the data.
@@ -95,8 +99,8 @@ Inductive reasoning as foundation for a new scientific order
   
 ## Behold, the revolution!
 
-1. Question
-2. Observation
-3. Testing
-4. Inference
+- Question
+- Observation
+- Testing
+- Inference
 
