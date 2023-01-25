@@ -1,0 +1,102 @@
+---
+title: "The modern science"
+subtitle: "and its radical origins"
+author: "Austin Hart"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  ioslides_presentation:
+    widescreen: true
+    css: iocustom.css
+---
+
+```{r setup, include=FALSE}
+  options(htmltools.dir.version = FALSE)
+  knitr::opts_chunk$set(
+    message=F, warning=F, eval=T, echo = F, 
+    fig.align = 'center'
+  )
+```
+
+# The business end
+
+## Scientific inquiry
+
+1. Question
+2. Observation
+3. Testing
+4. Inference
+
+
+## Scientific questions
+
+### Investigate "effects of causes"
+- Ingredients of a sci question
+  - Exposure variable: cause, $X$
+  - Outcome variable: effect, $Y$
+
+> What is the effect of a plant-based diet (X)
+on longevity (Y)?
+
+
+## Theory as guideline and baseline
+
+- Theory: what we *think* we know about $X \rightarrow Y$
+  - School of thought A suggests...
+  - School B suggests...
+
+- Hypotheses: observable implications of theory
+  - In my study, School A predicts...
+  - School B predicts...
+
+> Theories are general stories about the way things work. 
+> Hypotheses are specific predictions, derived from theory, about what we will observe in the data.
+
+
+## Observation
+
+- Design a study
+  - Experiment (randomized controlled trial)
+  - Observational (epidemiological)
+  - Maybe both!
+  
+- Collect your data
+
+
+## Testing and inference
+
+- Test the data against hypotheses
+
+- Inferential leaps
+  - Is there a relationship? (statistical validity)
+  - Is it causal? (internal validity)
+  - Does it capture what you intended? (measurement validity)
+  - Is the effect general? (external validity)
+
+
+# Nature and radical origins
+
+## Modern scientific project
+
+*New Organon* (1620)
+by Sir Francis Bacon
+
+Inductive reasoning as foundation for a new scientific order
+
+
+## What makes it radical?
+
+- Understanding through observation
+- Safeguard against confirmation bias
+
+- Challenge status quo without
+  - revelation or divination
+  - appeal to traditional authority
+  
+  
+## Behold, the revolution!
+
+1. Question
+2. Observation
+3. Testing
+4. Inference
+

@@ -1,0 +1,126 @@
+
+h1,h2 {
+color: #57068c;
+}
+h3,h4,h5,h6,p,ul {
+color: #000000;
+}
+ul ul li {
+font-size: .8em;
+}
+slides > slide.title-slide hgroup h1 {
+font-weight: bold;
+
+color: #57068c;
+
+}
+slides > slide.title-slide hgroup h2 {
+
+color: #000000;
+
+}
+slides > slide.title-slide {
+background-size: 100% 100%;
+}
+
+slides > slide.backdrop {
+background: #e2e1dd;
+
+}
+slides > slide.title-slide p {
+color: #57068c;
+}
+
+#nextsteps {
+color: #57068c;
+}
+
+.figure {
+margin-top: 3em;
+font-size: 12pt;
+}
+
+.gdbar img {
+
+
+}
+
+aside.gdbar {
+
+background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(100%, #ffffff)) no-repeat;
+background: -webkit-linear-gradient(left, #ffffff, #ffffff) no-repeat;
+background: -moz-linear-gradient(left, #ffffff, #ffffff) no-repeat;
+background: -o-linear-gradient(left, #ffffff, #ffffff) no-repeat;
+background: linear-gradient(left, #ffffff, #ffffff) no-repeat;
+}
+
+slides > slide:not(.nobackground):before {
+width: 75px;
+height: 75px;
+background-size: 75px 75px;
+}
+
+slides > slide.dark {
+background: #57068c !important;
+}
+
+slides > slide:not(.nobackground):after {
+font-size: 12pt;
+content: attr(data-slide-num) "/" attr(data-total-slides);
+position: absolute;
+bottom: 20px;
+right: 60px;
+line-height: 1.9;
+}
+slide.level1 hgroup h1 {
+font-weight: bold;
+font-size: 100pt;
+color: black;
+border-style: dotted dashed solid double;
+
+}
+.mySegue {
+font-weight: bold;
+font-size: 2.25em;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.mySegue p {
+color: #ffffff;
+}
+slide! > article.mySegue {
+background: #57068c !important;
+background-color: #000000 ! important;
+}
+.segue hgroup h1 {
+position: relative;
+bottom: 25px;
+}
+.parent {
+position: relative;
+}
+h2 #center {
+color: black;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+#refs {
+font-size: 5pt;
+}
+.smallrefs {
+font-size: 10pt;
+}
+
+.footer {
+color: black;
+background: #E8E8E8;
+position: fixed;
+top: 90%;
+text-align:center;
+width:30%;
+}
+</style>
