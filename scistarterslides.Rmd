@@ -2,24 +2,43 @@
 title: "The modern science"
 subtitle: "and its radical origins"
 author: "Austin Hart"
-date: "`r format(Sys.time(), '%B %d, %Y')`"
-output: 
-  ioslides_presentation:
-    widescreen: true
-    css: iocustom.css
+institute: "American University"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: [default, rladies, rladies-fonts]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
 ---
 
 ```{r setup, include=FALSE}
-  options(htmltools.dir.version = FALSE)
-  knitr::opts_chunk$set(
-    message=F, warning=F, eval=T, echo = F, 
-    fig.align = 'center'
-  )
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  message=FALSE, warning=FALSE, eval = TRUE, echo = TRUE, 
+  fig.align = 'center', dev='svglite', dpi = 300
+)
 ```
 
-# The business end
+class: inverse, middle
 
-## Scientific inquiry
+<style type="text/css">
+.remark-slide-content {
+    font-size: 25px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+
+
+# The business end
+### Life cycle of a causal claim
+
+
+---
+
+# Scientific inquiry
 
 - Question
 - Observation
@@ -27,7 +46,9 @@ output:
 - Inference
 
 
-## Scientific questions
+---
+
+# Scientific questions
 
 - Investigate "effects of causes"
 - Ingredients of a sci question
@@ -36,15 +57,17 @@ output:
 
 &nbsp;
 
-> What is the effect of a plant-based diet (X)
-on longevity (Y)?
+> What is the effect of exposure to misinformation (X)
+on satisfaction with democracy (Y)?
 
 
-## Theory as guideline and baseline
+---
+
+# Theory as guideline and baseline
 
 - Theory: what we *think* we know about $X \rightarrow Y$
   - School of thought A suggests...
-  - School B suggests...
+  - Alternatively, School B suggests...
 
 - Hypotheses: observable implications of theory
   - In my study, School A predicts...
@@ -53,10 +76,12 @@ on longevity (Y)?
 &nbsp;
 
 > Theories are general stories about the way things work. 
-> Hypotheses are specific predictions, derived from theory, about what we will observe in the data.
+> Hypotheses are specific predictions, derived from theory, about what we will find in the data.
 
 
-## Observation
+---
+
+# Observation
 
 - Design a study
   - Experiment (randomized controlled trial)
@@ -66,28 +91,38 @@ on longevity (Y)?
 - Collect your data
 
 
-## Testing and inference
+---
 
-- Test the data against hypotheses
+# Testing and inference
+
+- Test the data against convention/status quo hypotheses
 
 - Inferential leaps
-  - Is there a relationship? (statistical validity)
-  - Is it causal? (internal validity)
-  - Does it capture what you intended? (measurement validity)
+  - Is there a relationship? (statistical)
+  - Is it causal? (causal)
+  - Does it capture what you intended? (measurement)
   - Is the effect general? (external validity)
 
 
+---
+class: inverse, middle
+
 # Nature and radical origins
 
-## Modern scientific project
 
-*New Organon* (1620)
-by Sir Francis Bacon
+---
 
-Inductive reasoning as foundation for a new scientific order
+# Modern scientific project
+
+>*New Organon* (1620)
+> by Sir Francis Bacon
+> 
+> Inductive reasoning as the foundation for a new scientific order
 
 
-## What makes it radical?
+---
+
+# What makes it radical?
 
 - Understanding through observation
 - Safeguard against confirmation bias
@@ -97,7 +132,9 @@ Inductive reasoning as foundation for a new scientific order
   - appeal to traditional authority
   
   
-## Behold, the revolution!
+---
+
+# Behold, the revolution!
 
 - Question
 - Observation
